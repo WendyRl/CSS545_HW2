@@ -19,3 +19,16 @@ Cons: Requires more setup and management overhead compared to other storage opti
 
 # App Demonstrating Storage Management:
 Our Fridge Partner app demonstrates effective storage management through the following features:
+## Store and Load Media Items Locally:
+Users can upload images of food items to their fridge, which are then stored locally on their device.
+
+Using Android's Internal Storage, these images are securely saved within the app's private storage space.
+
+Upon launching the app, stored images are loaded from Internal Storage and displayed in the app's interface, providing users with quick access to their fridge inventory.
+
+## Store and Load User Settings Locally:
+User preferences and settings, such as notification preferences and default fridge settings, are stored locally using Android's SharedPreferences framework.
+
+This allows users to customize their experience within the app, with settings persisting across app sessions.
+
+When the app is opened, user settings are loaded from SharedPreferences and applied to the app's functionality, ensuring a personalized user experience.
